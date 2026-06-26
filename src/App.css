@@ -34,7 +34,8 @@
   gap: 8px;
 }
 
-.nav-links button {
+.nav-links button,
+.nav-link {
   font-family: var(--font-sans);
   font-size: 0.9375rem;
   font-weight: 500;
@@ -45,9 +46,11 @@
   border-radius: 8px;
   cursor: pointer;
   transition: background 0.2s, color 0.2s;
+  text-decoration: none;
 }
 
-.nav-links button:hover {
+.nav-links button:hover,
+.nav-link:hover {
   background: rgba(255, 255, 255, 0.1);
   color: #fff;
 }

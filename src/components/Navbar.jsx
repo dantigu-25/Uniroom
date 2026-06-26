@@ -22,6 +22,9 @@ function Navbar() {
           <button type="button" onClick={handleComeFunziona}>
             Come funziona
           </button>
+          <Link to="/swipe" className="nav-link">
+            Scopri i match
+          </Link>
           <Link to="/registrati" className="nav-cta nav-cta-link">
             Entra in lista
           </Link>
